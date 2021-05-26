@@ -22,3 +22,14 @@ INFO: werkzeug - [2021-05-26 05:26:55,605] -  * Running on http://0.0.0.0:3111/ 
 INFO: werkzeug - [2021-05-26 05:29:18,410] - 172.17.0.1 - - [26/May/2021 05:29:18] "GET / HTTP/1.1" 200 -
 INFO: werkzeug - [2021-05-26 05:29:18,582] - 172.17.0.1 - - [26/May/2021 05:29:18] "GET /static/css/main.css HTTP/1.1" 200 -
 INFO: werkzeug - [2021-05-26 05:29:18,973] - 172.17.0.1 - - [26/May/2021 05:29:18] "GET /favicon.ico HTTP/1.1" 404 -
+INFO: werkzeug - [2021-05-26 05:31:33,875] - 172.17.0.1 - - [26/May/2021 05:31:33] "GET /create HTTP/1.1" 200 -
+INFO: werkzeug - [2021-05-26 05:31:39,172] - 172.17.0.1 - - [26/May/2021 05:31:39] "POST /create HTTP/1.1" 302 -
+INFO: werkzeug - [2021-05-26 05:31:39,200] - 172.17.0.1 - - [26/May/2021 05:31:39] "GET / HTTP/1.1" 200 -
+INFO: app - [2021-05-26 05:31:41,907] - Article "Enteprise Plan" retrieved!
+INFO: werkzeug - [2021-05-26 05:31:41,924] - 172.17.0.1 - - [26/May/2021 05:31:41] "GET /7 HTTP/1.1" 200 -
+INFO: werkzeug - [2021-05-26 05:31:45,891] - 172.17.0.1 - - [26/May/2021 05:31:45] "GET /metrcis HTTP/1.1" 404 -
+INFO: werkzeug - [2021-05-26 05:31:50,078] - 172.17.0.1 - - [26/May/2021 05:31:50] "GET /metrics HTTP/1.1" 200 -
+INFO: app - [2021-05-26 05:35:10,726] - Article "2020 CNCF Annual Report" retrieved!
+INFO: werkzeug - [2021-05-26 05:35:10,728] - 172.17.0.1 - - [26/May/2021 05:35:10] "GET /1 HTTP/1.1" 200 -
+INFO: werkzeug - [2021-05-26 05:35:18,253] - 172.17.0.1 - - [26/May/2021 05:35:18] "GET /healthz HTTP/1.1" 200 -
+INFO: werkzeug - [2021-05-26 05:35:22,216] - 172.17.0.1 - - [26/May/2021 05:35:22] "GET /metrics HTTP/1.1" 200 -
