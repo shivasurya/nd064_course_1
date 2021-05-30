@@ -1,0 +1,9 @@
+apiVersion: v1
+name: techtrends
+description: TechTrends helm
+keywords:
+- techtrends
+version: 1.0.0
+maintainers:
+- name: shivasurya
+  email: sshivasurya@gmail.com
